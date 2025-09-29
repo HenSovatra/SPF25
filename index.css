@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'inter'; 
+  font-weight: normal; 
+  font-style: normal;
+  src: url('Inter_Regular.ttf') format('truetype');
+}
+
 .container-fluid{
     background-color: #D0D1D6;
     display: flex;
@@ -6,12 +13,12 @@
     height: 100vh;
 }
 .center-container{
-    width: 30vw;
     height: 40vh;
     background-color: #D8D9DE;
     z-index: 10;
     border-radius: 20px;
     filter: drop-shadow(0px 0px 3px #FFFFFF);
+    transition: all 0.3s ;
 }
 #mypfp{
     width: 100px;
@@ -32,4 +39,26 @@
     bottom: 0;
     right: 0;
     border: 5px solid #D8D9DE;
+}
+.fullname{
+    color: black;
+    font-family: 'inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.role{
+    color: grey;
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+}
+.name-container{
+    text-align: left;
+}
+.skill-items{
+    display: flex;
+    font-family: 'inter', sans-serif;
+    padding: 5px 20px;
+    background-color: #E3E3E5;
+    border-radius: 50px;
+    border: 0.5px solid #FFFFFF;
 }
