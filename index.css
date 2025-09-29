@@ -4,7 +4,7 @@
   font-style: normal;
   src: url('Inter_Regular.ttf') format('truetype');
 }
-body{
+body,html{
     background-color: #D0D1D6;
 }
 .container-fluid{
