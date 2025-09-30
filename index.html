@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="center-container col-xl-4 col-lg-6 col-md-8 col-sm-10 col-11 py-4" data-aos="fade-up" data-aos-duration="1000">
+        <div class="center-container col-xl-4 col-lg-6 col-md-8 col-sm-10 col-11 py-5" data-aos="fade-up" data-aos-duration="1000">
             <div class="row px-5 pt-2">
                 <div class="ps-4 pe-0 col-xl-3 col-lg-3 col-md-4 col-4 d-flex justify-content-end align-items-center">
                     <div class="image-container">
@@ -27,19 +27,42 @@
             </div>
             <div class="row px-5 pt-3">
                 <div class="ps-4 pe-0 col-12 d-flex gap-3 flex-wrap">
-                   <div class="skill-items">Coding</div> 
-                   <div class="skill-items">Data Analytic</div> 
-                   <div class="skill-items">Figma</div> 
-                   <div class="skill-items">UX/UI Designer</div>
-                   <div class="skill-items">Programming</div>
-                   <div class="skill-items">Problem Solving</div>
-                   <div class="skill-items">Web Dev.</div>
-                   <div class="skill-items">Mobile Dev.</div>
+                   <div class="skill-items" data-id="1">Coding</div> 
+                   <div class="skill-items" data-id="2">Data Analytic</div> 
+                   <div class="skill-items" data-id="3">Figma</div> 
+                   <div class="skill-items" data-id="4">UX/UI Designer</div>
+                   <div class="skill-items" data-id="5">Programming</div>
+                   <div class="skill-items" data-id="6">Problem Solving</div>
+                   <div class="skill-items" data-id="7">Web Dev.</div>
+                   <div class="skill-items" data-id="8">Mobile Dev.</div>
                 </div>
             </div>
+            <div class="row px-5 pt-4">
+                <div class="px-5">
+                    <hr style="color: grey;">
+                </div>
+            </div>
+            <div class="row px-5 pt-3">
+                <div class="ps-4 pe-0 col-12 title-container">
+                    <div>
+                        <div class="about-me-title">Experiences</div>
+                        <div class="about-me-text mt-3 text-center" id="experiences-amount">0</div>
+                    </div>
+                    <div>
+                        <div class="about-me-title">Project Built</div>
+                        <div class="about-me-text mt-3 text-center" id="project-amount">0</div>
+                    </div>
+                    <div>
+                        <div class="about-me-title">Lines of Code</div>
+                        <div class="about-me-text mt-3 text-center" id="line-amount">0</div>
+                    </div>
+                </div>
+            </div> 
         </div>
     </div>
 </body>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://unpkg.com/countup.js@2.8.0/dist/countUp.umd.js"></script>
 <script src="index.js"></script>
 </html> 

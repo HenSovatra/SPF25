@@ -6,6 +6,7 @@
 }
 body,html{
     background-color: #D0D1D6;
+    user-select: none;
 }
 .container-fluid{
     background-color: #D0D1D6;
@@ -26,6 +27,7 @@ body,html{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    user-select: none;
 }
 .image-container{
     width: 100px;
@@ -63,4 +65,27 @@ body,html{
     background-color: #E3E3E5;
     border-radius: 50px;
     border: 0.5px solid #FFFFFF;
+    transition: all 0.2s ;
+    cursor: pointer;
+    user-select: none;
+}
+.skill-items:hover{
+    background-color: #FFFFFF;
+    transition: all 0.2s ;
+}
+.skill-items-active{
+    background-color: #FFFFFF;
+}
+
+.title-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1vw;
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+}
+.about-me-text{
+    font-weight: normal;
+    font-family: 'inter', sans-serif;
 }
