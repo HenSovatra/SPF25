@@ -85,7 +85,13 @@ body,html{
     font-weight: 600;
     font-family: 'inter', sans-serif;
 }
+.about-me-title{
+    font-weight: 600;
+    font-family: 'inter', sans-serif;
+    font-size: 1vw;
+}
 .about-me-text{
     font-weight: normal;
     font-family: 'inter', sans-serif;
+    font-size: 0.9vw;
 }
